@@ -1,0 +1,10 @@
+version: 0.2
+phases:
+  install:
+    runtime-version:
+      python: 3.8
+    command:
+      - echo Installing dependencies...
+  build:
+    command:
+      - python area of triangle.py
